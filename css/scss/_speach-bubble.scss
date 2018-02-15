@@ -1,0 +1,131 @@
+.bubble {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	background: white;
+	border-radius: 6px;
+	box-shadow: 0 2px 4px 0 rgba(0,8,19,0.80);
+	margin: 15px 0;
+	padding: 24px 30px;
+	opacity: 0;
+	height: 0;
+	margin-top: 40px;
+	transform: scale(0.7);
+	transition: opacity 0.2s ease-in-out, margin-top 0.5s ease-out, scale 0.5s ease-in-out;
+
+	&--visible {
+		opacity: 1;
+		height: auto;
+		margin-top: 15px;
+		transform: scale(1);
+	}
+
+	&--right {
+		border-top-right-radius: 0;
+
+		&:after {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: -22px;
+			width: 24px;
+			height: 42px;
+			background: url("../img/edge.svg") no-repeat;
+		}
+	}
+
+	&--left {
+		border-top-left-radius: 0;
+
+		&:after {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: -22px;
+			width: 24px;
+			height: 42px;
+			background: url("../img/edge.svg") no-repeat;
+			transform: scaleX(-1);
+    		filter: FlipH;
+		}
+
+	}
+
+	&--true {
+
+		&:before {
+			content: "👍 Vorurteil bestätigt sich";
+			position: absolute;
+			top: -15px;
+			color: $color-green;
+			font-size: $text-size-small;
+			background: $color-green-light;
+			padding: 7px 13px;
+			border-radius: 15px;
+			box-shadow: 0 2px 4px 0 rgba(216,237,204,0.50);
+		} 
+	}
+
+	&--false {
+
+		&:before {
+			content: "👎 Vorurteil bestätigt sich nicht";
+			position: absolute;
+			top: -15px;
+			color: $color-orange;
+			font-size: $text-size-small;
+			background: $color-orange-light;
+			padding: 7px 13px;
+			border-radius: 15px;
+			box-shadow: 0 2px 4px 0 rgba(242,213,208,0.50);
+		} 
+	}
+
+	&--question {
+		display: flex;
+		flex-direction: row;
+		align-content: stretch;
+		justify-content: space-between;
+		max-width: 230px;
+	}
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: calc(50% - 2px);
+	height: 44px;
+	background: rgba($color-blue-light, 0.5);
+	border-radius: 6px;
+	transition: all 0.1s ease-in-out;
+	cursor: pointer;
+
+	&:hover {
+		background: rgba($color-blue, 0.6);
+
+	}
+
+	&--selected {
+		border: 1px solid $color-blue;
+		background: rgba($color-blue, 0.6);
+	}
+}
+
+.chart {
+	height: 240px;
+	border-radius: 6px;
+	width: 100%;
+	margin-top: 24px;
+	margin-bottom: 6px;
+	background: $color-white-grey no-repeat center;
+}
+
+.data-source {
+	width: 100%;
+	font-size: $text-size-small;
+	color: $color-light-grey;
+	margin-top: 7px;
+}
