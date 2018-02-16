@@ -66,7 +66,7 @@ for (var i = 0; i < questions.length; i++) {
 	    		event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.style.display = "flex";
 
 	    		// scroll to bubble
-	    		event.target.parentElement.scrollIntoView({behavior: "smooth"})
+	    		event.target.parentElement.previousSibling.previousSibling.scrollIntoView({block: "start", behavior: "smooth"})
 
 	    		// animate bubbles in
 	    		setTimeout(function(){
