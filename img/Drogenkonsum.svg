@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="767px" height="356px" viewBox="0 0 767 356" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="335px" height="177px" viewBox="0 0 335 177" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard</title>
+    <title>Group</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard">
-            <g id="Group-2" transform="translate(213.500000, 177.500000) rotate(13.000000) translate(-213.500000, -177.500000) translate(63.000000, 27.000000)">
-                <circle id="Oval" fill="#5390E0" cx="150.5" cy="150.5" r="150.5"></circle>
-                <rect id="Rectangle" fill="#537AE0" x="145" y="0" width="13" height="301"></rect>
+    <defs>
+        <rect id="path-1" x="76" y="1" width="2" height="151"></rect>
+        <rect id="path-2" x="254" y="1" width="2" height="154.893217"></rect>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-123.000000, -101.000000)">
+        <g id="Group" transform="translate(124.000000, 102.000000)">
+            <circle id="Oval" stroke="#112238" stroke-width="2" fill="#E052A0" cx="76.5" cy="76.5" r="76.5"></circle>
+            <circle id="Oval" stroke="#112238" stroke-width="2" fill="#E052A0" cx="76.5" cy="76.5" r="76.5"></circle>
+            <circle id="Oval" stroke="#112238" stroke-width="2" fill="#E052A0" cx="76.5" cy="76.5" r="76.5"></circle>
+            <path d="M255,78.0874202 L255,156 C298.07821,156 333,121.07821 333,78 C333,34.9217895 298.07821,0 255,0 C211.92179,0 177,34.9217895 177,78 C177,83.0837231 177.486346,88.0538542 178.415048,92.866404 L255,78.0874202 Z" id="Path" stroke="#112238" stroke-width="2" fill="#E052A0" transform="translate(255.000000, 78.000000) rotate(180.000000) translate(-255.000000, -78.000000) "></path>
+            <g id="Rectangle">
+                <use fill="#112238" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#112238" stroke-width="1" x="76.5" y="1.5" width="1" height="150"></rect>
             </g>
-            <g id="Group" transform="translate(449.000000, 93.000000)">
-                <circle id="Oval" stroke="#979797" stroke-width="0.78" fill="#5390E0" cx="117.5" cy="117.5" r="117.5"></circle>
-                <rect id="Rectangle" fill="#537AE0" x="113" y="0" width="10" height="235"></rect>
+            <g id="Rectangle" transform="translate(255.000000, 78.446609) rotate(180.000000) translate(-255.000000, -78.446609) ">
+                <use fill="#112238" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#112238" stroke-width="1" x="254.5" y="1.5" width="1" height="153.893217"></rect>
             </g>
-            <text id="Romandie" transform="translate(293.537969, 257.058397) rotate(-19.000000) translate(-293.537969, -257.058397) " font-family="InterUI-Regular, Inter UI" font-size="18" font-weight="normal" fill="#000000">
-                <tspan x="252.037969" y="263.558397">Romandie</tspan>
+            <text id="Romands" font-family="InterUI-Regular, Inter UI" font-size="11" font-weight="normal" fill="#112238">
+                <tspan x="51" y="175">Romands	</tspan>
             </text>
-            <text id="Deutsch-Schweiz" transform="translate(598.914081, 267.857204) rotate(-19.000000) translate(-598.914081, -267.857204) " font-family="InterUI-Regular, Inter UI" font-size="18" font-weight="normal" fill="#000000">
-                <tspan x="525.414081" y="274.357204">Deutsch-Schweiz</tspan>
+            <text id="Deutschschweizer" font-family="InterUI-Regular, Inter UI" font-size="11" font-weight="normal" fill="#112238">
+                <tspan x="208" y="175">Deutschschweizer</tspan>
             </text>
         </g>
     </g>

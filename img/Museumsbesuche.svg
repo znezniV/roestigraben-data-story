@@ -1,62 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="706px" height="451px" viewBox="0 0 706 451" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="255px" height="179px" viewBox="0 0 255 179" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard</title>
+    <title>Group 3</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="114" y="135" width="225" height="287"></rect>
-        <rect id="path-2" x="378" y="46" width="288" height="377"></rect>
-        <rect id="path-3" x="33" y="23" width="306" height="401"></rect>
-        <rect id="path-4" x="60" y="48" width="252" height="350"></rect>
-        <rect id="path-5" x="249" y="100" width="17" height="137"></rect>
-        <rect id="path-6" x="404" y="70" width="237" height="329"></rect>
-        <rect id="path-7" x="97" y="190" width="69" height="45"></rect>
-        <polygon id="path-8" points="441.19952 139.185773 463.079002 142.024605 442.80048 380.200845 420.920998 377.362013"></polygon>
+        <rect id="path-1" x="17" y="15" width="87" height="126"></rect>
+        <rect id="path-2" x="158" y="24" width="82" height="118"></rect>
     </defs>
     <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard">
-            <g id="Rectangle">
-                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
-                <rect stroke="#979797" stroke-width="1" x="114.5" y="135.5" width="224" height="286"></rect>
-            </g>
-            <g id="Rectangle" transform="translate(522.000000, 234.500000) rotate(-180.000000) translate(-522.000000, -234.500000) ">
-                <use fill="#5390E0" fill-rule="evenodd" xlink:href="#path-2"></use>
-                <rect stroke="#979797" stroke-width="0.94" x="378.47" y="46.47" width="287.06" height="376.06"></rect>
-            </g>
-            <g id="Rectangle">
-                <use fill="#5390E0" fill-rule="evenodd" xlink:href="#path-3"></use>
-                <rect stroke="#979797" stroke-width="1" x="33.5" y="23.5" width="305" height="400"></rect>
-            </g>
-            <g id="Rectangle-2">
-                <use fill="#E052A0" fill-rule="evenodd" xlink:href="#path-4"></use>
-                <rect stroke="#979797" stroke-width="1" x="60.5" y="48.5" width="251" height="349"></rect>
-            </g>
-            <g id="Rectangle-5" transform="translate(257.500000, 168.500000) rotate(-322.000000) translate(-257.500000, -168.500000) ">
-                <use fill="#5390E0" fill-rule="evenodd" xlink:href="#path-5"></use>
-                <rect stroke="#979797" stroke-width="1" x="249.5" y="100.5" width="16" height="136"></rect>
-            </g>
-            <g id="Rectangle-2">
-                <use fill="#E052A0" fill-rule="evenodd" xlink:href="#path-6"></use>
-                <rect stroke="#979797" stroke-width="0.94" x="404.47" y="70.47" width="236.06" height="328.06"></rect>
-            </g>
-            <polygon id="Triangle-2" stroke="#979797" fill="#5390E0" points="509.426797 151.248847 552.802037 226.388122 454.344369 213.613381"></polygon>
-            <polygon id="Triangle-3" stroke="#979797" fill="#5390E0" points="528.545285 95.5757381 546.842414 122.775264 506.067017 117.484715"></polygon>
-            <path d="M567.832821,330.893876 C587.056895,333.388172 605.402227,302.979926 608.808266,262.975157 C612.214305,222.970387 599.391254,188.518088 580.167179,186.023792 C560.943105,183.529496 542.597773,213.937742 539.191734,253.942511 C535.785695,293.94728 548.608746,328.39958 567.832821,330.893876 Z" id="Oval" stroke="#979797" fill="#5390E0"></path>
-            <polygon id="Polygon" stroke="#979797" fill="#5390E0" transform="translate(209.500000, 305.500000) rotate(-322.000000) translate(-209.500000, -305.500000) " points="209.5 215 247.066732 277.533962 232.717517 378.716038 186.282483 378.716038 171.933268 277.533962"></polygon>
-            <g id="Rectangle-3" transform="translate(131.500000, 212.500000) rotate(-322.000000) translate(-131.500000, -212.500000) ">
-                <use fill="#5390E0" fill-rule="evenodd" xlink:href="#path-7"></use>
-                <rect stroke="#979797" stroke-width="1" x="97.5" y="190.5" width="68" height="44"></rect>
-            </g>
-            <g id="Rectangle-4">
-                <use fill="#5390E0" fill-rule="evenodd" xlink:href="#path-8"></use>
-                <path stroke="#979797" stroke-width="1" d="M441.653388,139.748853 L421.459783,376.927729 L442.346612,379.637765 L462.540217,142.458889 L441.653388,139.748853 Z"></path>
-            </g>
-            <polygon id="Triangle" stroke="#979797" fill="#5390E0" transform="translate(181.000000, 134.000000) rotate(-322.000000) translate(-181.000000, -134.000000) " points="181 104 222 164 140 164"></polygon>
-            <text id="Romandie" font-family="InterUI-Regular, Inter UI" font-size="18" font-weight="normal" fill="#000000">
-                <tspan x="144" y="415">Romandie</tspan>
+        <g id="Group-3">
+            <text id="Deutschschweizer" font-family="InterUI-Regular, Inter UI" font-size="11" font-weight="normal" fill="#112238">
+                <tspan x="151" y="178">Deutschschweizer</tspan>
             </text>
-            <text id="Deutsch-Schweiz" font-family="InterUI-Regular, Inter UI" font-size="18" font-weight="normal" fill="#000000">
-                <tspan x="449" y="416">Deutsch-Schweiz</tspan>
+            <text id="Romands" font-family="InterUI-Regular, Inter UI" font-size="11" font-weight="normal" fill="#112238">
+                <tspan x="36.6992188" y="178">Romands</tspan>
+            </text>
+            <rect id="Rectangle" stroke="#112238" stroke-width="2" x="1" y="1" width="118" height="155"></rect>
+            <g id="Rectangle-2">
+                <use fill="#E052A0" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#112238" stroke-width="2" x="18" y="16" width="85" height="124"></rect>
+            </g>
+            <rect id="Rectangle" stroke="#112238" stroke-width="1.88" x="142.94" y="9.94" width="111.12" height="146.12"></rect>
+            <g id="Rectangle-2">
+                <use fill="#E052A0" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#112238" stroke-width="1.88" x="158.94" y="24.94" width="80.12" height="116.12"></rect>
+            </g>
+            <text id="75.1%" font-family="InterUI-Regular, Inter UI" font-size="11" font-weight="normal" fill="#112238">
+                <tspan x="46" y="83">75.1%</tspan>
+            </text>
+            <text id="71.6%" font-family="InterUI-Regular, Inter UI" font-size="11" font-weight="normal" fill="#112238">
+                <tspan x="184" y="87">71.6%</tspan>
             </text>
         </g>
     </g>
