@@ -42,21 +42,21 @@ for (var i = 0; i < questions.length; i++) {
 
 	    		setTimeout(function(){
 	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
-	    		}, 2200);
+	    		}, 3000);
 
 	    		setTimeout(function(){
 	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
-	    		}, 2400);
+	    		}, 6000);
 
 	    		setTimeout(function(){
 	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
-	    		}, 2600);
+	    		}, 7500);
 	    		setTimeout(function(){
 	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
-	    		}, 2800);
+	    		}, 9000);
 	    		setTimeout(function(){
 	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
-	    		}, 2800);
+	    		}, 9500);
 
     			console.log("rick james")
     		} else {
