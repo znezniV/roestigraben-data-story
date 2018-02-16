@@ -15,38 +15,80 @@ for (var i = 0; i < questions.length; i++) {
 			// add class to clicked button (selected)
     		event.target.classList.add("btn--selected");
 
-    		// display next bubbles
-    		event.target.parentElement.nextSibling.nextSibling.style.display = "flex";
-    		event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.style.display = "flex";
-    		event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.style.display = "flex";
+    		if (event.target.parentElement.id == "question-accidents") {
 
-    		// scroll to bubble
-    		event.target.parentElement.scrollIntoView({behavior: "smooth"})
 
-    		// animate bubbles in
-    		setTimeout(function(){
-    			event.target.parentElement.nextSibling.nextSibling.classList.add("bubble--visible")
-    		}, 100);
+    			// display next bubbles
+	    		event.target.parentElement.nextSibling.nextSibling.style.display = "flex";
+	    		event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.style.display = "flex";
+	    		event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.style.display = "flex";
+	    		event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.style.display = "flex";
+	    		event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.style.display = "flex";
+	    		event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.style.display = "flex";
+	    		event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.style.display = "flex";
 
-    		setTimeout(function(){
-    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
-    		}, 2000);
+	    		// scroll to bubble
+	    		event.target.parentElement.scrollIntoView({behavior: "smooth"})
 
-    		setTimeout(function(){
-    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
-    		}, 2000);
+	    		// animate bubbles in
+	    		setTimeout(function(){
+	    			event.target.parentElement.nextSibling.nextSibling.classList.add("bubble--visible")
+	    		}, 100);
 
+	    		setTimeout(function(){
+	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
+	    		}, 2000);
+
+	    		setTimeout(function(){
+	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
+	    		}, 2200);
+
+	    		setTimeout(function(){
+	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
+	    		}, 2400);
+
+	    		setTimeout(function(){
+	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
+	    		}, 2600);
+	    		setTimeout(function(){
+	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
+	    		}, 2800);
+	    		setTimeout(function(){
+	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
+	    		}, 2800);
+
+    			console.log("rick james")
+    		} else {
+    			// display next bubbles
+	    		event.target.parentElement.nextSibling.nextSibling.style.display = "flex";
+	    		event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.style.display = "flex";
+	    		event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.style.display = "flex";
+
+	    		// scroll to bubble
+	    		event.target.parentElement.scrollIntoView({behavior: "smooth"})
+
+	    		// animate bubbles in
+	    		setTimeout(function(){
+	    			event.target.parentElement.nextSibling.nextSibling.classList.add("bubble--visible")
+	    		}, 100);
+
+	    		setTimeout(function(){
+	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
+	    		}, 2000);
+
+	    		setTimeout(function(){
+	    			event.target.parentElement.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("bubble--visible")
+	    		}, 2200);
+    		}
   		}, false);
+
 	}
 }
 
 window.addEventListener('scroll', function(){
-	console.log(document.documentElement.scrollTop)
 	var scrollPos = document.documentElement.scrollTop;
 
 	var introHeight = intro.clientHeight + 60;
-
-	console.log(introHeight);
 
 	if (scrollPos >= introHeight) {
 		header.classList.add("header--fixed")
