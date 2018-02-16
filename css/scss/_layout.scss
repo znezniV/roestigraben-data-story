@@ -76,4 +76,14 @@ body, html {
 		@extend .text;
 		color: white;
 	}
+
+	& + .text {
+		margin-top: 17px;
+	}
+}
+
+.image {
+	width: 100%;
+	border-radius: 6px;
+	margin: 23px 0;
 }
