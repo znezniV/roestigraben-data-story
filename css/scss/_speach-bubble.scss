@@ -90,6 +90,14 @@
 		justify-content: space-between;
 		max-width: 230px;
 	}
+
+	&--time {
+		background-color: rgba(white, 0.25);
+
+		.text {
+			color: $color-text-light;
+		}
+	}
 }
 
 .btn {
