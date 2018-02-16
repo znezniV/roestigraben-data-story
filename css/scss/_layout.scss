@@ -37,7 +37,8 @@ body, html {
 }
 
 #intro,
-#main {
+#main,
+#footer {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
@@ -54,6 +55,13 @@ body, html {
 	padding-top: 0;
 	max-width: 490px;
 	padding-bottom: 400px;
+}
+
+#footer {
+	color: rgba($color-text-light, 0.25);
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: $text-size-small;
 }
 
 #main.header-main {
