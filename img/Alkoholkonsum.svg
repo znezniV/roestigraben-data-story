@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="477px" height="561px" viewBox="0 0 477 561" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M27.875,221.5625 C81.625,136.8125 189.125,136.8125 242.875,221.5625 C278.708333,278.0625 278.708333,391.0625 242.875,560.5625 L27.875,560.5625 C-7.95833333,391.0625 -7.95833333,278.0625 27.875,221.5625 Z" id="path-1"></path>
+        <rect id="path-2" x="93" y="4" width="84" height="218"></rect>
+        <path d="M90.3,4 C112.9,-1.33226763e-15 158.1,2.22044605e-16 180.7,4 C195.766667,6.66666667 195.766667,12 180.7,20 L90.3,20 C75.2333333,12 75.2333333,6.66666667 90.3,4 Z" id="path-3"></path>
+        <path d="M329.4,353.842105 C362.2,302.052632 427.8,302.052632 460.6,353.842105 C482.466667,388.368421 482.466667,457.421053 460.6,561 L329.4,561 C307.533333,457.421053 307.533333,388.368421 329.4,353.842105 Z" id="path-4"></path>
+        <rect id="path-5" x="370" y="221" width="51" height="133"></rect>
+        <path d="M367.9,220.894737 C381.7,218.368421 409.3,218.368421 423.1,220.894737 C432.3,222.578947 432.3,225.947368 423.1,231 L367.9,231 C358.7,225.947368 358.7,222.578947 367.9,220.894737 Z" id="path-6"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Rectangle">
+                <use fill="#5390E0" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#5390E0" stroke-width="1" d="M28.2803916,560.0625 L242.46961,560.0625 C278.19355,390.90382 278.16567,278.140416 242.452759,221.830293 C188.89912,137.389902 81.8508804,137.389902 28.2972405,221.830293 C-7.41566974,278.140416 -7.44354964,390.90382 28.2803916,560.0625 Z"></path>
+            </g>
+            <path d="M262.026675,270 C269.791707,303.434477 271.701516,346.101144 267.756101,398 L2.99389865,398 C-0.951515902,346.101144 0.958292927,303.434477 8.72332513,270 L262.026675,270 Z" id="Combined-Shape" fill="#E052A0"></path>
+            <text id="Romandie" font-family="InterUI-Regular, Inter UI" font-size="24" font-weight="normal" fill="#000000">
+                <tspan x="80" y="334">Romandie</tspan>
+            </text>
+            <g id="Rectangle-2">
+                <use fill="#5390E0" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#5390E0" stroke-width="1" x="93.5" y="4.5" width="83" height="217"></rect>
+            </g>
+            <g id="Rectangle-3">
+                <use fill="#5390E0" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <path stroke="#5390E0" stroke-width="1" d="M90.4246771,19.5 L180.575323,19.5 C195.153513,11.7359707 195.117279,7.0595018 180.612859,4.49234785 C158.070505,0.502550715 112.929495,0.502550715 90.3871412,4.49234785 C75.8827214,7.0595018 75.8464868,11.7359707 90.4246771,19.5 Z"></path>
+            </g>
+            <g id="Rectangle">
+                <use fill="#5390E0" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <path stroke="#5390E0" stroke-width="0.61" d="M329.64736,560.695 L460.352641,560.695 C482.152669,457.324228 482.13568,388.415848 460.34233,354.005296 C427.66208,302.404901 362.33792,302.404901 329.65767,354.005296 C307.86432,388.415848 307.847331,457.324228 329.64736,560.695 Z"></path>
+            </g>
+            <path d="M475.316696,401 C477.608523,419.971532 477.560099,442.638199 475.171424,469 L314.828576,469 C312.439901,442.638199 312.391477,419.971532 314.683304,401 L475.316696,401 Z" id="Combined-Shape" fill="#E052A0"></path>
+            <text id="Deutsch-Schweiz" font-family="InterUI-Regular, Inter UI" font-size="18" font-weight="normal" fill="#000000">
+                <tspan x="322" y="443">Deutsch-Schweiz</tspan>
+            </text>
+            <g id="Rectangle-2">
+                <use fill="#5390E0" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <rect stroke="#5390E0" stroke-width="0.61" x="370.305" y="221.305" width="50.39" height="132.39"></rect>
+            </g>
+            <g id="Rectangle-3">
+                <use fill="#5390E0" fill-rule="evenodd" xlink:href="#path-6"></use>
+                <path stroke="#5390E0" stroke-width="0.61" d="M367.978342,230.695 L423.021658,230.695 C431.926899,225.789066 431.904309,222.816578 423.045077,221.194751 C409.281391,218.675083 381.718609,218.675083 367.954923,221.194751 C359.095691,222.816578 359.073101,225.789066 367.978347,230.695 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
