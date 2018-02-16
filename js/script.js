@@ -17,6 +17,7 @@ for (var i = 0; i < questions.length; i++) {
 
     		if (event.target.parentElement.id == "question-accidents") {
 
+    			// ------ SORRY FOR SPAGHETTI CODE (time preasure) ------ 
 
     			// display next bubbles
 	    		event.target.parentElement.nextSibling.nextSibling.style.display = "flex";
